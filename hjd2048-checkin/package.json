@@ -1,0 +1,8 @@
+{
+  "name": "hjd2048-checkin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "probe": "node probe.mjs", "login": "node login.mjs", "checkin": "node checkin.mjs", "inspect:captcha": "node inspect-captcha.mjs", "test": "node --test" },
+  "dependencies": { "playwright": "^1.63.0" }
+}

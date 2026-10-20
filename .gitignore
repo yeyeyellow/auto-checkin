@@ -1,0 +1,24 @@
+# Dependencies and local caches
+node_modules/
+.npm-cache/
+
+# Login credentials, account data, generated pages, and run evidence
+session/
+artifacts/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+run.lock
+run.lock.*
+
+# Generated Windows launchers contain machine-specific absolute paths.
+# shared/install-recovery.ps1 regenerates these for the current checkout.
+scheduled-checkin.vbs
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+{
+  "name": "forum-checkin-lab",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "login": "node login.mjs",
+    "checkin": "node checkin.mjs",
+    "checkin:experimental": "node checkin.mjs --experimental",
+    "research": "node research.mjs",
+    "inspect:captcha": "node inspect-captcha.mjs",
+    "probe": "node probe.mjs",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
